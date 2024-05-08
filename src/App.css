@@ -1,0 +1,51 @@
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.step1-container, .step2-container, .step3-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.step1-input, .step2-input, .step3-input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.step1-button, .step2-button, .step3-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.step1-button:hover, .step2-button:hover, .step3-button:hover {
+  background-color: #0056b3;
+}
+
+.loading, .error {
+  text-align: center;
+  margin-top: 20px;
+  color: red;
+}
+
+.download-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}

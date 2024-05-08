@@ -1,0 +1,42 @@
+/* Step 2 Form Styles */
+.step2-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .step2-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .step2-form input[type="text"],
+  .step2-form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .step2-form input[type="text"]:focus,
+  .step2-form input[type="number"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .step2-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .step2-form button:hover {
+    background-color: #0056b3;
+  }
+  
